@@ -8,3 +8,5 @@
 * It could be said that this model does predict the MPG of the MechaCar Prototypes effectively
   * This is because the R-squared value of the model is 0.7149
   * This means that using this model about 71% of MPG predictions can be made. 
+## Summary Statistics on Suspension Coils
+* The design specifications for the MechaCar suspension coils say that 
