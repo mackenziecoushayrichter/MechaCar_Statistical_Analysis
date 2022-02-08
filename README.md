@@ -16,3 +16,11 @@
 * Manufacturing lot 3 is also driving up the varaiance for the other 2 manufacturing lots when one just looks at a total summary. 
 * Lot 1 has a variance of 0.98 and Lot 2 has a variance of 7.47
 ![](lot_summary.png)
+## T-Tests on Suspension Coils
+* See below for the results of the t.test I performed to see if the PSI across the manufacturing lots is statistically different than the population mean of 1500.
+![](t_test_summary.png)
+* From this test I found that the true mean of the sample is 1498.78, and that the p-value is 0.06.  Because the p-value is above the significance level of 0.05, we cannot reject the null hypothesis.  This means that all of the manufacturing lots are statistically similar to the population mean of 1500.
+* To dive deeper, I performed the same t.test individually on each of the 3 manufacturing lots (see below):
+![](t_test_lots.png)
+* With lot 1 and lot 2, the results came back similar where to the 1st thest where the p-values were both greater tha 0.05, meaning that we cannot reject the null hypothesis and the manufacturing lots are statistically similar to the population mean of 1500.
+* However with lot 3, the p-value came in at 0.04, which is below 0.05. This means that in this scenario we can reject the null hypothesis and say that the mean of this sample and the population mean are statistically different.
