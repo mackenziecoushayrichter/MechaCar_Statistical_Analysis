@@ -24,3 +24,14 @@
 ![](t_test_lots.png)
 * With lot 1 and lot 2, the results came back similar where to the 1st thest where the p-values were both greater tha 0.05, meaning that we cannot reject the null hypothesis and the manufacturing lots are statistically similar to the population mean of 1500.
 * However with lot 3, the p-value came in at 0.04, which is below 0.05. This means that in this scenario we can reject the null hypothesis and say that the mean of this sample and the population mean are statistically different.
+## Study Design: MechaCar vs Competition
+* To see how the MechaCar stacks up in comparison to the competition we could create a study to see if the MechaCar's selling price is in line with competitiors.
+* To do this we would need to collect the following data for both the MechaCar and the Top 3 competitors car models:
+ * Selling Price
+ * MPG
+ * Saftey Rating
+ * Engine
+ * Resale Value
+* Null Hypothesis: MechaCar is priced in line with the competitors based on key metrics.
+* Alternative Hypothesis:MechaCar is not priced in line with the competitors based on key metrics
+* A good statistical test to use to run this analyis would be a multiple linear regression.  This test will allows us to see which of the key metrics have the highest correlation to selling price with would be our dependent variable.
