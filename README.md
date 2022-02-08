@@ -27,11 +27,11 @@
 ## Study Design: MechaCar vs Competition
 * To see how the MechaCar stacks up in comparison to the competition we could create a study to see if the MechaCar's selling price is in line with competitiors.
 * To do this we would need to collect the following data for both the MechaCar and the Top 3 competitors car models:
- * Selling Price
- * MPG
- * Saftey Rating
- * Engine
- * Resale Value
+  * Selling Price
+  * MPG
+  * Saftey Rating
+  * Engine
+  * Resale Value
 * Null Hypothesis: MechaCar is priced in line with the competitors based on key metrics.
 * Alternative Hypothesis:MechaCar is not priced in line with the competitors based on key metrics
 * A good statistical test to use to run this analyis would be a multiple linear regression.  This test will allows us to see which of the key metrics have the highest correlation to selling price with would be our dependent variable.
